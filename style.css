@@ -3,9 +3,6 @@ body {
     flex-direction: column;
     padding: o;
     margin: 0;
-
-    
-    
 }
 .dark {
     background-color: #1f2937;
@@ -45,13 +42,13 @@ body {
 .top-links {
     display: flex;
     gap: 16px; 
-
 }
 .header-bottom > img {
     display: flex;
     height: 200px;
     width: 400px;
     border: 4px solid grey; 
+    border-radius: 8px;
 }   
 button { 
     background-color: #3882f6;
@@ -60,15 +57,15 @@ button {
     flex: 1;
     font-size: 16px;
     border-radius: 8px;
+    padding: 5px;
+
 }
 button:hover{
     background-color: #195ecd;
 }
 .light {
-
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;   
 }
 .body-title {
     display: flex;
@@ -77,16 +74,13 @@ button:hover{
     font-size: 36px;
     font-weight: bolder;
     margin: 2%;
-   
-
 }
 .articles {
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 36px;
-    
+    gap: 36px;   
 }
 .item > img {
     display: flex;
@@ -102,8 +96,7 @@ button:hover{
     margin-bottom: 32px;
 }
 .quote {
-    background-color: #e5e7eb;
-    
+    background-color: #e5e7eb;    
 }
 .quote > div:nth-child(1) {
     margin: auto;
@@ -113,9 +106,8 @@ button:hover{
     padding: 52px;
 }
 .quote > div:nth-child(2) {
-    margin-left: 160px;
-    margin-right: 250px;
-    margin-top: -30px;
+    width: 85%;
+    margin-top: -36px;
     margin-bottom: 52px;
     font-size: 20px;
     font-weight: bolder;
@@ -126,14 +118,16 @@ button:hover{
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #3882f6;
     margin: 120px;
-    padding: 50px;
+    padding: 52px;
     border-radius: 8px;
 }   
 .left-text {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 6px;
 
 }
@@ -146,7 +140,7 @@ button:hover{
     font-size: 12px;
     color: white;
     font-weight: 800;
-    margin-bottom: 52px;
+   
 }
 footer {
     background-color: #1f2937;
@@ -159,8 +153,10 @@ footer {
 .button-bottom > button {
     background-color: #3882f6;
     border: white solid;
-    border-radius: 6px;
-    
+    border-radius: 6px;    
+    padding: 5px;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 a {
     color: white;
